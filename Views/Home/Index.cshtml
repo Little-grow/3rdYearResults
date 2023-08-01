@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4"> Welcome 3rd year result</h1>
+
+
+    <p class="lead">Enter your Seating Number to view your result</p>
+    <input type="text" name="SeatingNumber" id="SeatingNumber" class="form-control col-6" />
+    <a asp-area="" asp-controller="Student" asp-action="Read" class="btn btn-primary col-3">
+        Search
+    </a>
+
+</div>
