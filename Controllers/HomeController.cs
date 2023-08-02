@@ -22,9 +22,13 @@ namespace ThirdYear.Controllers
 			return View();
 		}
 
-        public IActionResult Read(long seatingNo)
+        public IActionResult Read(int? seating_no)
         {
-            var student = _context.Students.Find(seatingNo);
+            if (seating_no == null)
+            {
+                return View("Index");
+            }
+            var student = _context.Students.Find(seating_no);
 
             if (student == null)
             {

@@ -4,20 +4,14 @@
 
 <div class="text-center">
     <h1 class="display-4"> Welcome 3rd year result</h1>
-@*
-    <form method="get">
-        <label for="seating_no">Seating Number:</label>
-        <input type="text" name="seating_no" id="seating_no" />
-        <button type="submit" asp-action="Read" asp-controller="Home" asp-route-id="">Search</button>
-    </form>
-*@
 
-    <form method="post" action="/Home/Read/seating_no">
+    @using (Html.BeginForm("Read", "Home", FormMethod.Get))
+    {
         <label for="seating_no">Seating Number:</label>
         <input type="text" name="seating_no" id="seating_no" />
-        <input type="hidden" name="id" value="" />
-        <button type="submit">Search</button>
-    </form>
+        <button type="submit" asp-action="Read" asp-controller="Home">Search</button>
+    }
+
 
 </div>
 
