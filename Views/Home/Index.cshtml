@@ -5,16 +5,10 @@
 <div class="text-center">
     <h1 class="display-4"> Welcome 3rd year result</h1>
 
-    @using (Html.BeginForm("Read", "Home", FormMethod.Get))
+    @using (Html.BeginForm("Read", "Student", FormMethod.Get))
     {
         <label for="seating_no">Seating Number:</label>
         <input type="text" name="seating_no" id="seating_no" />
-        <button type="submit" asp-action="Read" asp-controller="Home">Search</button>
+        <button type="submit" asp-action="Read" asp-controller="Student">Search</button>
     }
-
-
 </div>
-
-@section Scripts {
-    
-}
