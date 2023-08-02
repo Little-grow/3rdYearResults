@@ -1,0 +1,23 @@
+﻿@model ThirdYear.Models.Statistics
+@{
+	ViewBag.Title = "Statistics";
+}
+
+
+<!-- _Sidebar.cshtml -->
+<div class="sidebar bg-light p-4">
+    <h3 class="text-center mb-4">📊 Students Statistics</h3>
+    <ul class="list-unstyled">
+        <li>👨‍🎓 Total Students: @Model.TotalStudents</li>
+        <li>✅ Total Successful Students: @Model.TotalSuccessfulStudents</li>
+        <li>❌ Total Failing Students: @Model.TotalFailingStudents</li>
+        <li>🔄 Total Second Chance Students: @Model.TotalSecondChnaceStudent</li>
+        <li>📈 Total Students Above 95%: @Model.TotalStudentsAbove95</li>
+        <li>📈 Total Students Above 90%: @Model.TotalStudentsAbove90</li>
+        <li>📈 Total Students Above 85%: @Model.TotalStudentsAbove85</li>
+        <li>📈 Total Students Above 80%: @Model.TotalStudentsAbove80</li>
+        <li>📊 Average Marks: @Model.AverageMarks</li>
+        <li>⭐ First Student Degree: @Model.FirstStudentDegree</li>
+        <li>⭐ Last Student Degree: @Model.LastStudentDegree</li>
+    </ul>
+</div>

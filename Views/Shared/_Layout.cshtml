@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - ThirdYear</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link href="" rel="stylesheet">
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/ThirdYear.styles.css" asp-append-version="true" />
 </head>
@@ -22,9 +23,11 @@
                         <li class="nav-item">
                             <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
+                        
                         <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
+							<a class="nav-link text-white" asp-area="" asp-controller="Statistics" asp-action="Index">Statistics</a>
+                        </li>       
+                        
                     </ul>
                 </div>
             </div>
@@ -38,7 +41,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2023 - ThirdYear <a asp-area="" asp-controller="Home" asp-action="Privacy" class="link-dark">Privacy</a>
+            &copy; 2023 - ThirdYear 
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
