@@ -1,0 +1,33 @@
+﻿
+	<script>
+		window.onload = function () {
+
+			var chart = new CanvasJS.Chart("chartContainer", {
+				animationEnabled: true,
+				theme: "light1",
+				title: {
+					text: "Students Statistics"
+				},
+				axisY: {
+					scaleBreaks: {
+						autoCalculate: true,
+						type: "wavy",
+						lineColor: "black"
+					},
+					gridThickness: 0,
+				},
+				data: [{
+					type: "column",
+					indexLabel: "{y}",
+					dataPoints: @Html.Raw(ViewBag.DataPoints)
+					}]
+			});
+			chart.render();
+
+		}
+	</script>
+	<div id="chartContainer"></div>
+	
+	<script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
+
+	
