@@ -22,5 +22,8 @@ namespace ThirdYear.Models
 
         [Required]
         public int cflag { get; set; }
+
+        [Required]
+        public double Percentage { get; set; }
     }
 }
