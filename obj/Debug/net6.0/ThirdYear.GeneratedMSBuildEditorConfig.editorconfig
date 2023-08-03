@@ -32,12 +32,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Track-Preperation/3rdYearResults/Views/Statistics/Diagram.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGlzdGljc1xEaWFncmFtLmNzaHRtbA==
+[D:/Track-Preperation/3rdYearResults/Views/Statistics/_Diagram.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGlzdGljc1xfRGlhZ3JhbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Track-Preperation/3rdYearResults/Views/Statistics/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGlzdGljc1xJbmRleC5jc2h0bWw=
+[D:/Track-Preperation/3rdYearResults/Views/Statistics/_Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGlzdGljc1xfSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Track-Preperation/3rdYearResults/Views/Student/NotFound.cshtml]

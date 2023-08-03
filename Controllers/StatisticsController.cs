@@ -43,7 +43,7 @@ namespace ThirdYear.Controllers
                 LastStudentDegree = LastStudentDegree
             };
 
-            return View("index", model);
+            return PartialView(model);
         }
 
         private int GetStudentsCount(double n)
@@ -68,7 +68,7 @@ namespace ThirdYear.Controllers
 
 			ViewBag.DataPoints = JsonConvert.SerializeObject(dataPoints);
 
-			return View();
+			return PartialView();
 		}
 
 	}
